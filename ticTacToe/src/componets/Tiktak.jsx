@@ -12,6 +12,9 @@ function Tiktak() {
     setLetters(newLetters); 
   };
 
+  function reset(){
+    alert(" Não consegui ;)")
+  }
 
   return (
     <div className={styles.flex}>
@@ -30,7 +33,7 @@ function Tiktak() {
 
       </div>
       <div className={styles.button}>
-          <button >Reset</button>
+          <button onClick={reset} >Reset</button>
         </div>
     </div>
   );
