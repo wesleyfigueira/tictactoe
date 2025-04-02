@@ -4,7 +4,7 @@ import styles from './Contador.module.css'
 
 function Contador(){
 
-    const [Contador,setContador]= useState(1);
+    const [Contador,setContador]= useState(0);
 
     function maisUm(){
         setContador(Contador+1)
